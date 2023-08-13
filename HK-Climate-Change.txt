@@ -1,0 +1,271 @@
+﻿Forecasting and Data Analysis 
+on Climate Change in Hong Kong
+ 
+Project member
+	Chan Kwan Yue
+	1155144322
+	
+
+	Chan Hoi Ching
+	1155125751
+	
+
+	Leung Wan Hoi
+	1155142877
+	
+
+	Li Sheng Wei
+	1155143605
+	
+
+	Tsang Chor Ki
+	1155143026
+	 
+Content
+1. Introduction 
+2. Data Collection 
+3. Forecasting and Data Analysis 
+4. Conclusion 
+References 
+ 
+Abstract
+Background
+Global climate change, one of the most serious problems concerned by the global citizens, is closely related to Hong Kong Climate change. Therefore, the report would focus on the Hong Kong climate situation about different temperature measures as well as mean sea levels. This study aims to visualize the past and the recent climate measures in Hong Kong, and mainly aims to forecast the future climate measures in Hong Kong to find out the appropriate forecasting method for different climate test objects ,and to arouse public awareness about the problem of Climate Change.
+ 
+Methods
+The test objects' data such as monthly temperature and annual temperature are firstly collected from the official website of Hong Kong Observatory(HKO). The data are then processed to the desired data. After that, the desired data are visualized by Microsoft Excel. Next, the desired data are used to be forecasted by moving average method and exponential method respectively in Microsoft Excel. Finally, the most app
+ 
+Results
+Five test Objects (Mean Sea Level, Annual Temperature, Number of Very Hot Days, Summer Temperature and Winter temperature) data are collected and forecasted by moving average model and exponential smoothing model respectively. It is found that there are two test objects (Very Hot Days and Winter Temperature) are better to be forecasted by the moving average model due to the smaller mean squared error thus higher accuracy. Moreover, it is found that there are three test objects (Mean Sea Level, Annual Temperature and Summer Temperature) are better to be forecasted by Exponential Smoothing Models. And all the test objects are forecasted to have an increasing trend in the future.
+ 
+Conclusion         
+It is found that there are still some limitations for collecting, forecasting the climate data and the personal technical problems about the programming. Also, there would be more about climate change to be investigated. Finally, there are also an increasing trend of different climate test objects. In other words, the climate change problems are worsening in the future and humans ought to take actions to deal with them.
+ 
+1. Introduction
+ 
+1.1 Background
+Nowadays, the severity and frequency of occurrence of extreme weather such as Very Hot Weather Warnings have drastically increased in Hong Kong. In 2020, the warning was issued with the highest number of days in a total of 67 days, breaking the old record of 57 days each in 2017 and 2018 (Weather Warnings-Hong Kong Weather Warnings and Signals). Meanwhile, the number of very hot days and the height of sea level have increased 367% and 186 centimeter respectively over the past century (Climate Change in Hong Kong - Extreme Weather Event). Based on the data, it indicates that climate change has intensified in comparison with the past 30 decades. All the inconveniences including unpredictable weather caused by extreme weather have seriously affected our daily life, thus it is of utmost importance to forecast the trend of weather in Hong Kong using statistical methods.
+ 
+1.2 Experiment objects
+There are several reasons why Hong Kong is chosen as the experiment object. 
+First of all, all the researchers in the group are from Hong Kong. It is subjectively found,by the researchers, that Hong Kong is having gigantic changes in terms of the climate, thus, the interests of the objective findings for Hong Kong climate changes are aroused.
+Secondly, although there are only a handful of factories in Hong Kong, HongKong climate is still adversely affected by the factories pollutant from China, the World Factory. Moreover, Hong Kong ,a hectic city of hustle and bustle, having plentiful vehicles may also deteriorate the climate of Hong Kong. Last but not least, the wealthy lifestyle of Hong Kong people also worsen climate change of HongKong. Therefore, researchers also hope to measure how the mentioned factors may affect Hong Kong climate.
+ 
+1.3 Test objects
+The selected test objects are temperature, mean sea level extreme weather events as well as average temperature of Winter and summer from 1880s to 2020s due to their convenient accessibility as well as the fact that they are good indicators to describe climate changes of a place. For the temperature, at the Hong Kong Observatory Headquarters, temperature records have been available since the nineteenth Century eighty(Climate Change in Hong Kong - Temperature).  For the mean sea level, tide gauge records in Victoria Harbour since 1954(Climate Change in Hong Kong - Mean sea level). For the extreme weather events, extreme weather days records have been by Hong Kong Obverservator since 1880s. For average temperature of Winter and summer, temperature records have been available since the nineteenth Century eighty(Monthly Extract of Meteorological Observations).
+ 
+2. Data Collection
+ 
+2.1 Data Selection
+Due to the accessibility and accordance of the data sets, data from 1960 to 2020 is obtained, instead of obtaining as much as the Hong Kong Observatory could provide.
+ 
+For the average temperature of summer, the months of summer season are firstly defined to be June, July as well as August as the mentioned months are often the hottest and sunniest months of the entire year. Therefore, data of these three months are obtained as desired data for processing the average temperature of summer.
+ 
+For the extreme weather events, Very Hot Days, which daily maximum temperature is greater or equal to 33 degree celsius, is related to temperature and occurs oftenly compared to other special weather events. Therefore, the data of annual total Very Hot Days is collected to investigate its trend.
+For the average temperature of winters, the months of the winter season are defined to be December, January, and February. Hong Kong’s temperature always turns from around 22.2℃ in November (average from 1991 to 2020)(HKO,2021) to around 18.2℃ in December (average from 1991 to 2020)(HKO,2021) and turns from 17.1℃ in February (average from 1991 to 2020)(HKO,2021) to 19.5℃ in March (average from 1991 to 2020)(HKO,2021). Also, December, January, and February are the coldest months throughout a year. Therefore, data of these three months are obtained as desired data for processing the average temperature of winter.
+For the average temperature (Celsius) of each year in Hong Kong, the data is collected from the Hong Kong Observatory in above 1 standard atmospheric pressure(1 atm=1013.25 hpa) between 1960 and 2020.
+2.2 Data Processing
+For the mean sea level, copied the desired data from Hong Kong Observatory(HKO) websites and pasted it to Excel to create a table with 2 columns (Year and Average sea level) and rows from 1960 to 2020. The data is obtained and the graph is re-drawn, instead of using the graph provided by HKO, in order to exclude the preceding data of 1960 and the standard curve.
+ 
+For the extreme weather events, the data of ‘Very Hot Days’ from 1960 to 2020 is collected. By using excel, a graph of the annual total Very Hot Days per year is obtained.
+ 
+For the average temperature of summer, the data of summer months from 1960 to 2020 is firstly obtained. Then, take the average of the three summer months for each year by doing calculations in excel. 
+ 
+For the average temperature of winter, the data of average temperatures of December, January, and February from 1960 to 2020 and the average temperature of December in 1959 are firstly obtained. Then, take the average of the average temperature of December in the previous year and the average temperature of January and February for each year by doing calculations in excel. 
+ 
+For the average temperature of each year, the data about years and temperature is filled into Excel with two columns. 
+ 
+2.3 Data Visualization
+For the mean sea level, create the XY scatter diagram with straight lines from the table, where year as x-axis as well as the height of sea level above chart datum as the y-axis.
+Overall, the trend over 1960 to 2020 soared moderately with an average rate of 0.2308% approximately. To be more specific, it peaked at 1.51 meters in 1999 and attained the lowest point 1.28 meters in 1963.
+ 
+Graph 2.3.1
+For the average temperature of winter, the XY scatter diagram with straight lines from the table is created, where year as x-axis as well as the height of temperature chart datum as y-axis. In overall, the trend of average temperature of summer in Hong Kong from 1960 to 2020 is slightly increasing with fluctuation. 2020 has the highest average temperature of summer, 29.6℃; 2015 has the second low average temperature of summer, 29.4℃, while 1973 has the lowest average temperature of summer, 27.7℃; 1976 has the second low average temperature of summer, 27.8℃. 
+Graph 2.3.2
+For the average temperature of winter, the XY scatter diagram with straight lines from the table is created, where year as x-axis as well as the height of temperature chart datum as y-axis. In overall, the trend of average temperature of winter in Hong Kong from 1960 to 2020 is slightly increasing with fluctuation. 1968 has the lowest average temperature of winter, 14.5℃; 1977 has the second low average temperature of winter, 15℃, while 2019 has the highest average temperature of winter, 19.133℃; 2020 has the second high average temperature of winter, 18.733℃. 
+Graph 2.3.3
+ 
+For the average temperature of each year,   the scatter line diagram  is created by the data. The x-axis and y-axis present years and the temperature respectively. The average temperature is fluctuating between 1960 and 2011. When it comes to 2011, the average temperature is on an increasing trend to 2020. The highest average temperature point is about 24.5 °C in 2015 and the lowest average temperature point is about 22.5 °C in 1975 and 1884.
+ 
+Graph 2.3.4
+For the extreme weather events, a XY scatter diagram is formed,which year as x-axis and the annual total Very Hot Days as y-axis.For the extreme weather events, a XY scatter diagram is formed, which year as x-axis and the annual total Very Hot Days as y-axis. In 1975 and 1985, the number of the annual total Very Hot Days was the lowest, which is 2 days.While 2020 has 47 very hot days, which is the highest. In overall, the trend slightly decreases from 1960-2006 but increases rapidly from 2006 to 2020.
+Graph 2.3.5
+ 
+3. Forecasting and Data Analysis
+The report would be using two forecasting methods, moving average method and exponential smoothing method respectively. The method with smaller mean squared error would be considered as a more accurate forecasting method for each test object.
+ 
+Excel data analysis is used for Moving Average Method and Exponential Smoothing.
+  
+Moving Average Model (MA)
+The moving average method is used  and it consists of  computing an average of  n periods’ data, then gets a forecasting data.
+The formula of moving average:
+Exponential Smoothing Model(ESE)
+    The first real data is used for the next period forecast. The forecast of next period is equal to the weight factor(alpha) multiply to the current real data plus (1-weight factor) multiply the forecast data.
+ 
+MSE(Mean Squared Error)
+The average of the squared forecast error for the historical data is calculated
+For the forecasting of average temperature.
+In the following data analysis, it is based on the MSE to compare the forecast model accuracy. The smaller MSE represents higher forecast accuracy.
+ 
+e  means the error of the forecast
+ 
+3.1 Time Series Forecasting For Mean Sea Level
+3.1.1 Moving Average Method (MA)
+ 
+For the forecasted average sea level in Hong Kong, when periods(n) increases from 2 to 5, MSE decreases from 0.00139 to 0.00132. Then, there is an increasing trend between 5(n) and 8(n). To maximize the error(MSE=0.00132), n=5 is applied to the calculation of moving average.
+According to the linear forecast line(MA) in the graph, it is believed that the average sea level is the increasing trend in Hong Kong in the future.
+ 
+ 
+With Excel, the forecasted sea level in 2021 is :
+The forecast data in 2021(1.478m) is higher than the sea level in 2020(1.47m)
+3.1.2 Exponential Smoothing
+ 
+By halving the smoothing constant to 4 decimal places, the minimum MSE is found to be 0.00126951. Therefore, α=0.4375 is applied to the calculation of exponential smoothing.
+ 
+The forecast data in 2021(1.472m) is higher than the sea level in 2020(1.47m)
+According to the linear forecast line(ES) in the graph, it is believed that the average sea level is the increasing trend in Hong Kong in the future.
+ 
+3.2 Time Series Forecasting For Average Temperature
+3.2.1 Moving Average Method
+  For the average temperature each year in Hong Kong, when n equals to 2,3,4 …… , the MSE is the increasing trend. Therefore, it is highly concluded that the bigger n represents higher MSE. According to the smaller MSE(0.11528509), n=4 is applied into the moving average forecast model .
+ 
+The forecast of average temperature in Hong Kong in 2021 is 24.175 °C by Excel.
+ 
+According to the linear forecast line(MA), the average temperature in Hong Kong will be increased in the future. The forecast data in 2021(24.175°C) is lower than the average temperature in Hong Kong in 2020(24.4°C)
+3.2.2 Exponential Smoothing
+Observing the data, 0.3<alpha<0.4 exists a smaller MSE.
+Therefore,  the midpoint of 0.3 and 0.4 is 0.35. It is found that MSE is 0.11509211 with alpha(0.35). In order to find the smaller MSE, 0.35+(0.05 divided by 4)= 0.3625 is used. The MSE of alpha(0.3625) is 0.1150915.
+The forecast of average temperature of Hong Kong in 2021 is  24.178°C
+According to the linear forecast line(ES), the average temperature in Hong Kong will be increased in the future. The forecast data in 2021(24.178°C) is lower than the average temperature in Hong Kong in 2020(24.4°C)
+ 
+ 
+3.3 Time Series Forecasting For Very Hot Days Event
+ 
+3.3.1 Moving Average Method
+For the annual total of Very Hot Days in Hong Kong, the higher the value of n, the greater the MSE. Therefore n=6 is selected as the value of MSE is the smallest, which equals 53.3989899. The forecasting data will become more accurate by using n=6 in the moving average method.
+The annual total of Very Hot Days in 2021 is forecasted as 35 days which is smaller than the annual total of very hot days in 2020(47days).
+ 
+3.3.2 Exponential Smoothing
+ 
+For the exponential smoothing method, the MSE is the smallest when alpha=0.3875, which is 59.16756. 
+The value of MSE keeps decreasing when alpha equals 0.1 to 0.4. While the MSE becomes smaller when 0.3< Alpha <0.4. Therefore, alpha equals 0.35, 0.375 and 0.3875 is used to find their MSE, which is 59.313,59.18349 and 59.16756 respectively. The forecasting data will be more accurate by using alpha=0.3875.
+However, the forecasting data have a great difference compared to the real data.
+The annual total of Very Hot Days in 2021 is forecasted as 38 days and it is lower than the annual total of very hot days in 2020(47 days)
+3.4 Time Series Forecasting For Average Temperature of Summer
+Moving Average Method is a more accurate method when forecasting the average temperature of Summer due to its smaller mean squared error
+3.4.1 Moving Average Method(MA)
+ 
+n is chosen to be 4 because mean squared error(MSE) where n=4 has the smallest value. In other words, when n=4, the moving average forecasting method would be the most accurate. MSE increases with n. Thus the smallest MSE can be found when n=2. MSE of using moving average method where n=4 is 0.148545322.
+ 
+The average temperature of summer in MA forecast in 2021 is forecasted as 29.11°C and it is lower than the average temperature of summer in 2021(29.5667 °C)。
+ 
+3.4.2 Exponential Smoothing
+α is chosen to be 0.2 because mean squared error where α=0.2 has the smallest value. In other words, when α=0.2, the moving average forecasting method would be the most accurate. MSE of using exponential smoothing method where α=0.2 is 0.208725.
+By doing multiple adjustments, it is found that the most accurate α for exponential smoothing is between 0.2 and 0.2015625.
+In the adjustments, it is assumed that the value of α between 0.2 and 0.2015625 would show a bell-shaped curve with a peak at the curve.
+ 
+The average temperature of summer in ES forecast in 2021 is forecasted as 29.0546°C and it is lower than the average temperature of summer in 2021(29.5667°C)
+3.5 Time Series Forecasting For Average Temperature of Winter
+ 
+3.5.1 Moving Average Method
+n is chosen to be 10 because mean squared error (MSE) where n=10 has the smallest value. In other words, when n=10, the moving average forecasting method would be the most accurate. MSE increases with n. Thus, the smallest MSE can be found when n=10. MSE of using moving average method where n=10 is 0.802918.
+ 
+The forecast of average temperature for the winter of 2021 is 17.2067℃.
+ 
+3.5 Time Series Forecasting For Average Temperature of Winter
+3.5.1 Moving Average Method
+n is chosen to be 10 because mean squared error (MSE) where n=10 has the smallest value. In other words, when n=10, the moving average forecasting method would be the most accurate. MSE increases with n. Thus, the smallest MSE can be found when n=10. MSE of using moving average method where n=10 is 0.802918.
+ 
+The forecast of average temperature for the winter of 2021 is 17.2067℃ which is lower than the average temperature for the winter of 2020(18.73℃)
+ 
+ 
+ 
+3.5.2 Exponential Smoothing
+α is chosen to be 0.1625 because mean squared error where α=0.1625 has the smallest value. In other words, when α=0.1625, the moving average forecasting method would be the most accurate. MSE of using exponential smoothing method where α=0.1625 is 0.923033.
+ 
+By doing multiple adjustments, it is found that the most accurate α for exponential smoothing is between 0.1 and 0.2, which is around 0.1625. In the adjustments, it is assumed that the value of α between 0.2 and 0.2015625 would show a bell-shaped curve with a peak at the curve.
+ 
+The forecast of average temperature for the winter of 2021 is 17.5810℃ which is lower than the average temperature for the winter of 2020(18.7333℃).
+ 
+ 
+3.6 Comparison
+ 
+Testing Object
+	Moving Average Model (MA)
+Mean Squared Error (MSE)
+	Exponential Smoothing Model (ES)
+Mean Squared Error (MSE)
+	Mean Sea Level
+	0.00132 (n=5)
+	0.00126951 (α=0.4375)
+	Average Temperature
+	0.11528509 (n=4)
+	0.1150915 (α=0.0.3625)
+	Annual Very Hot Days
+	53.3989899 (n=6)
+	59.16756 (α=0.0.3625)
+	Average Temperature of Summer
+	0.148545322 (n=4)
+	0.141352 (α=0.2)
+	Average Temperature of Winter
+	0.8020918 (n=10)
+	0.923033 (α=0.1625)
+	 
+Finishing the data processing, the MA model is compared with ES model in different object. The smallest MSE of MA model and ES model is applied.
+From the table, MA model is better than ES model in Annual very hot days and Average Temperature of Winter. The potential reason could be the real data distance between the current year and next year is big. For example, the real data distance between the current year and next year could be 22(year 2006-year 2007) in the annual very hot days. Also, the real data distance between the current year and next year could be 1.6(year 1960- year 1961).
+From the table, ES model is better than MA model in Mean Sea Level, Average Temperature, and Average Temperature of Winter. The potential reason could be the real data distance between the current year and next year is small, so ES model is better.
+Conclusion, When the data distance between the current year and next year is smaller, it is better to use ES model to get the smaller MSE. When the data distance between the current year and next year is big, it is better to use MA model to get the smaller MSE.
+3.7 Factors Affecting Test Objects 
+3.7.1 Mean Sea Level
+   As mentioned above, there are two reasons for the mean sea level has grown strikingly within 19 and 20 centuries. Due to global warming, the temperature is constantly increasing. Hence, this accelerates the melting rate of glaciers and ice sheets worldwide. As a result, a rising volume of water is added to the ocean. 
+  Meanwhile, thermal expansion of seawater particles has also contributed to total sea-level rise. Since 1972, thermal expansion has contributed about 45% to total sea-level rise, glaciers and ice caps another 40%, with most of the remainder from the ice sheets (Justin Norrie, 2012). Under soaring temperatures, the particles expand proportionally with their volume.
+ 
+3.7.2 Temperature
+As seen in graph 2.3.2-2.3.4, the average temperature of winter and summer as well as the annual temperature keep increasing within sixty years. In these sixty years, there are great technological advancements and there are more people having enjoyable lifestyles, such as using air-conditioners in summer and heater in winters, which require more energy. Thus, the demand for electricity keeps increasing.  For continuous production of Electricity, Fossil and Fuels are being used. The burning of these fuels produces gases ranging from carbon dioxide,methane to nitrous oxides leads to global warming (Saklani & Khurana, 2020).
+ 
+4. Conclusion
+4.1 Limitation
+4.1.1. Forecast One Period Only
+Although moving average and exponential smoothing are useful for forecasting, they can only forecast one period. Only the data of 2021 can be forecasted in our project. In moving average, the forecasted data is calculated by adding the sum of the most recent n data values then divided by n. In exponential smoothing, the formula is α times the actual value of the current period plus the forecasted value of the current period times (1-α). Both of the smoothing methods require the actual value of the data which the result can be more accurate. Therefore, the data of the period after 2021 cannot be forecasted.
+4.1.2. Technical issue in  SAS
+
+
+When applying forecasting methods in SAS, it provides many detailed data with different graphs and tables like the trend and correlation analysis, ARIMA estimation optimization summary, conditional least squares estimation etc. However, some of the data are too complicated and challenging. By comparing SAS and excel, the function of excel is easier to control and understand. Also, we can apply the  forecasting formula taught in the lecture and calculate the results quickly. Each formula of the forecasted data is clearly shown in excel. Therefore excel is chosen for forecasting.
+4.1.3. Technical issue in R
+With insufficient knowledge in programming language R, we discovered that it might be too complicated in downloading and inputting syntax in R. For instance, using syntax ses(time series, periods) gives a graph instead of a table like in Excel. Application of formula MSE=(actual-forecasted)^2 taught in lecture is a bit tricky in R to find the mean squared error. On the contrary, Excel can list out all the forecasted data in one column and plot the graph with the desired format. At the same time, each date can be checked and modified individually. In comparison to Excel’s and R’s convenience as well as technical requirements, Excel is more preferred.
+ 
+4.1.4. Inaccuracy in calculations
+Due to the uncertainty of the relationship between mean squared error and smoothing constant, we can merely estimate the most optimal smoothing constant up to 4 decimal places in exponential smoothing using the method of halving. This leads to the deviation of the theoretical constant value and hence the mean squared error cannot attain its minimum. Meanwhile, with respect to the centered moving average, we assumed that with increasing periods(n), the mean squared error increases by observing the calculated data trend. Thus, exceptional cases may be underestimated and neglected without noticing their existence. The above technical problems in calculation and assumptions result in inaccuracy in forecasting.
+ 
+Limitations-collection
+4.1.5. Geographical limitation
+In terms of temperature, the data extracted from the Hong Kong Observatory website were measured at Hong Kong Observatory which is located in Tsim Sha Tsui, Kowloon. Inevitably, temperature varies to a large extent within distinct districts. Instead of finding the average temperature in Hong Kong’s 18 districts, we merely considered the recorded temperature in a certain area. This probably leads to the lack of representativeness of the entire Hong Kong temperature. As a result, the forecasting trend of temperature may be one-sided and not comprehensive.
+ 
+4.2 Potentiality
+In the scope of humans affecting the environment, there are still a great amount of test objects and aspects worth investigating by forecasting.
+ 
+4.2.1. Tropical Cyclone
+Tropical cyclones are a common phenomenon which may cause large waves, heavy rain, floods and danger to life. A study suggested that the increase of temperature and stable relative humidity increase the saturation so the frequency of global tropical cyclones will decrease in warmer climates and the potential intensity of tropical cyclones will increase (Cha et al.,2020). Since tropical cyclones may cause huge damage, forecasting maximum sustained winds of tropical cyclones when landfall and annual number of tropical cyclones in western North Pacific would help to prevent loss caused by tropical cyclones.
+4.2.2. Urban Heat Island Effect
+Under the flourishing development of the metropolitan, there are full of screen buildings in Hong Kong. The sea breeze is not able to get into the urban, thus the temperature of the urban may increase and may lead to urban heat island effect. Hence, this may also cause the temperature differences between day and night. Under this situation, forecasting could be used to find out the future trend of the mentioned temperature differences.
+ 
+4.2.3 The Relationship between Global Air Pollution and Climate Change
+With the increasing amount of factories built all over the globe, the amount of suspended particulate matter increases as well. After the sun radiates to the ground, the ground may reflect the long wave radiation to the atmosphere. However, the suspended particulate matter may trap the radiation. Thus, the temperature may increase.
+ 
+4.2.4 Extreme Precipitation
+Extreme precipitation events in Hong Kong are mostly caused by tropical cyclones. A study suggested that enhanced tropospheric water vapor in the warmer climate enhances moisture convergence and results in an increase in tropical cyclone precipitation rate (Cha et al.,2020). Also, the hourly rainfall record in Hong Kong was broken at a faster speed (Climate Change in Hong Kong - Extreme weather events). Since extreme precipitation may cause flood, forecasting the annual number of red rainstorm warning signal and black rainstorm warning signal and annual highest hourly rainfall would help to prevent loss caused by extreme precipitation.
+ 
+4.3 The Future Trend
+In both the reality and forecasting graph, the standard curve is shown to be the increasing one. It shows that the climate change problem may be still worsening in the future. Thus, environmentally friendly action, in terms of policies making and personal actions, must be taken immediately to mitigate the problem.
+ 
+Appendix/References
+Cha EJ, Knutson TR, Lee T-C, Ying M, Nakaegawa T. Third assessment on impacts of climate change on tropical cyclones in the Typhoon Committee Region – Part II: Future projections. Tropical Cyclone Research and Review. 2020 July ;9(2):75-84. https://www.sciencedirect.com/science/article/pii/S2225603220300199?via%3Dihub. doi:https://doi.org/10.1016/j.tcrr.2020.04.005
+ 
+ Climate Change in Hong Kong - Extreme weather events. Hong Kong Observatory. 2021 January 25 [accessed 2021 February 23]. https://www.hko.gov.hk/en/climate_change/obs_hk_extreme_weather.htm
+ 
+Climate Change in Hong Kong - Mean sea level. ｜Hong Kong Observatory(HKO)｜Climate Change. [accessed 2021 Jan 28]. https://www.hko.gov.hk/en/climate_change/obs_hk_sea_level.htm
+Climate Change in Hong Kong - Temperature. ｜Hong Kong Observatory(HKO)｜Climate Change. [accessed 2021 Jan 28]. https://www.hko.gov.hk/en/climate_change/obs_hk_temp.htm 
+Monthly Meteorological Normals for Hong Kong (1991-2020). | Hong Kong Observatory(HKO)｜Climatological Information Services. [accessed 2021 Feb 6].https://www.hko.gov.hk/tc/cis/normal/1991_2020/normals.htm
+Saklani N, Khurana A. Global Warming: Effect on Living Organisms, Causes and its Solutions. SSRN. 2020 Feb 4 [accessed 2021 Feb 18]. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517122 
+Weather Warnings-Hong Kong Weather Warnings and Signals. ｜Hong Kong Observatory(HKO)｜Climate Change. [accessed 2021 Jan 29]. https://www.hko.gov.hk/tc/cis/statistic/vhotday_statistic.htm
+Justin Norrie(July 3, 2012)”Melting ice is the greatest factor in rising sea levels”. Retrieved from https://theconversation.com/melting-ice-the-greatest-factor-in-rising-sea-levels-8042
