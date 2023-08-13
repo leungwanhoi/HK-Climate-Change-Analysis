@@ -1,26 +1,5 @@
-﻿Forecasting and Data Analysis 
-on Climate Change in Hong Kong
- 
-Project member
-	Chan Kwan Yue
-	1155144322
-	
+Project: Forecasting and Data Analysis on Climate Change in Hong Kong
 
-	Chan Hoi Ching
-	1155125751
-	
-
-	Leung Wan Hoi
-	1155142877
-	
-
-	Li Sheng Wei
-	1155143605
-	
-
-	Tsang Chor Ki
-	1155143026
-	 
 Content
 1. Introduction 
 2. Data Collection 
